@@ -1,0 +1,37 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Sanjar",
+        "email": "sanjar@gmail.com"
+      },
+      {
+        "id": 2,
+        "name": "Oybek",
+        "email": "oybek@mail.com"
+      }
+    ],
+    "products": [
+      {
+        "id": 1,
+        "title": "MacBook Pro",
+        "price": 1999,
+        "inStock": true
+      },
+      {
+        "id": 2,
+        "title": "iPhone 14",
+        "price": 999,
+        "inStock": false
+      }
+    ],
+    "orders": [
+      {
+        "id": 1,
+        "userId": 1,
+        "productId": 2,
+        "quantity": 1,
+        "status": "pending"
+      }
+    ]
+  }
